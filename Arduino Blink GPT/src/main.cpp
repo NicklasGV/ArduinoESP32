@@ -38,7 +38,7 @@ void setup() {
 
 void loop() {
   // Læs knaptilstanden
-  buttonState = digitalRead(BUTTON_PIN);
+  buttonState = !digitalRead(BUTTON_PIN);
 
   // Håndter knaptilstandændringer
   if (buttonState != prevButtonState) {
