@@ -1,4 +1,3 @@
-// Inkluder de nødvendige biblioteker
 #include <Arduino.h>
 
 // Definer pinnumrene for LED'er og knap
